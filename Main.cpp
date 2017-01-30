@@ -3,7 +3,7 @@
 //Mitchell Marsh
 #include "Scene.h"
 
-class State;  // this is what will keep track of which frame the scene is rendering to anf from 
+class State;  // this is what will keep track of which frame the scene is rendering to and from 
 // this manages the scene class ^^^^^ 
 
 //class Scene / GameObject / Component--- this will contian a bunch of object stuff
@@ -36,7 +36,7 @@ int main()
 		while (accumulator >= dt)
 		{
 			previousState = currentState;    //The state/scene is the same 
-			//Do Calculaitons here    CALC();
+			//Do Calculaitons here    CALC();  Which invlove an update que!
 			t += dt;
 			accumulator -= dt;
 		}
@@ -45,12 +45,12 @@ int main()
 
 		//This blends the scenes together, allowing for smooth transition
 
-
+		/*   Below is for real time drawing only
 		//BELOW: returns an alpha value between the old state and new:   the new State is drawn onto the old using the alpha value! 
 		//this is true until the new state is caught up
 		State stateAlpha = currentState * alpha +
 			previousState * (1.0 - alpha);
-
-		//render(scene);
+		*/
+		//render(scene);  //or draw in the case of the console 
 	}
 }
