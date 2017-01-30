@@ -1,5 +1,5 @@
 # Character Shell Setup Idea
-(subject to change)
+(subject to change) CLICK ON RAW TO SEE CLASS STRUCTURE
 
 
 GAME OBJECT 
