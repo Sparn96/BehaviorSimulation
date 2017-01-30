@@ -42,13 +42,13 @@ public:
 	//move funciton? 
 
 protected:
-	std::pair<float, float> _2D_VectorSpace; // Magnitude, Direction       THIS MAY NOT BE NECESSARY FOR MOST GAMES
+	//std::pair<float, float> _2D_VectorSpace; // Magnitude, Direction       THIS MAY NOT BE NECESSARY FOR MOST GAMES
 	float _rotation;
 	float _size;
 
 };
 
-
+/*   //Behavior class will update any behavior that is contained within the object
 class Behavior : public Component
 {
 public:
@@ -57,7 +57,7 @@ public:
 protected:
 	//child classes may be different behavior types? 
 };
-
+*/
 
 
 #endif
