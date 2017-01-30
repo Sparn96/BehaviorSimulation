@@ -1,7 +1,7 @@
 #ifndef GRAPHICS_CLASS_H
 #define GRAPHICS_CLASS_H
 
-#define CONSOLE_X = 100
+#define CONSOLE_X = 100   // the size of the console window
 #define CONSOLE_Y = 80
 
 //#include "Camera.h"
