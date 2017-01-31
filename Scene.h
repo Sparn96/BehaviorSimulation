@@ -2,7 +2,7 @@
 #define SCENE_H
 
 class GameObject;
-
+//#include "GraphicsClass.h"
 
 class Scene
 {
@@ -14,10 +14,10 @@ public:
 
 private:
 	GameObject* _objects;
-	//Render* _renderer;
+	Render* _renderer;
 	//Event*  _eventQue;
 
-	//Alpha value?
+	//Alpha value -- Not for Console 
 };
 
 
