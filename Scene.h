@@ -14,8 +14,8 @@ public:
 
 private:
 	GameObject* _objects;
-	Render* _renderer;
-	//Event*  _eventQue;
+	GraphicsClass* _renderGraphics;
+	//Event*  _eventQue;  -- Game Logic Engine passes calculated events to occur during a scene into this que
 
 	//Alpha value -- Not for Console 
 };
